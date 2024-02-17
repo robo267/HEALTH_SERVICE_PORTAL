@@ -1,38 +1,310 @@
-.App {
+
+nav{
+  margin-bottom: 0px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+li {
+  float: left;
+  font-size: 25px;
+}
+
+
+button{
+  margin-top: 10px;
+}
+
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li input{
+  margin-top: 11px;
+  margin-left:25px;
+}
+li button{
+  margin-top:12px;
+}
+
+.search{
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(210, 243, 243);
+}
+
+
+
+.card{
+  background-color: gray;
+
+}
+.incard{
+  width: 500px;
+  height:150px;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.hospital-card img{
+  width: 100px;
+  height: 100%
+}
+
+
+
+.hospital-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(207, 232, 237);
+  
+
+}
+
+.hospital-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.hospital-card-info {
+  flex-grow: 1;
+}
+
+.hospital-card-info h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.hospital-card-info p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hospital-card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.hospital-card-rating img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.hospital-card-rating .star {
+  color: gold;
+}
+
+.categerories{
+    background-color: rgb(148, 231, 177);
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 4px;
+    border: none;
+    padding:0px;
+    margin-bottom: 3px;
+}
+
+.rating {
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.border.w-25.m-auto.mt-15.p-3{
+  background-color: rgb(140, 224, 224);
+  border-radius: 10px;
+  align-items:center;
+}
+.border.w-50.m-auto.mt-15.p-3{
+  background-color: rgb(140, 224, 224);
+  border-radius: 10px;
+  align-items:center;
+}
+.border.w-25.m-auto.mt-5.p-3{
+  border-radius: 10px;
+}
+.doctlog{
+  width:600px;
+  height:650px;
+  margin-right: 100px;
+  margin-left: 0px;
+}
+.doctmain{
+  display: flex;
+
+}
+.doctlog2{
+  width: 50%;
+}
+body{
+  background-color:azure  ;
+} 
+
+.border.w-25.m-auto.mt-5.p-3{
+  background-color: rgb(140, 224, 224);
+  
+}
+
+.search-contianer{
+  width: 280px;
+  
+}
+
+.dropdown{
+  background-color: white;
+  /* display: flex;
+  flex-direction: column; */
+  border : 1px solid gray;
+  width: 400px;
+  margin-left: 530px;
+  position: absolute;
+}
+
+.dropdown:empty{
+  border:none;
+}
+
+.dropdown-row{
+  cursor: pointer;
+  text-align: start;
+  
+}
+
+
+
+
+
+/* input bar in hospitals*/
+
+.inputhospitals{
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.inputhospitals input{
+  width:400px;
+}
+
+
+/* 
+.pikachu{
+  height: 40px;
+} */
+
+/* Portal */
+.outer{
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner{
+  background-color: white;
+  width:600px;
+  border-radius: 5px;
+  padding:20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.heading{
+  display: flex;
+  align-items: space-between;
+  margin-right: 20px ;
+  justify-content: center;
+  
+}
+.cross{
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  float:right;
+  
+}
+
+.borderw-100m-automt-15p-3{
+  background-color: cyan;
+}
+
+.hospi-textbox-search{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hospi-textbox-search select{
+  width: 350px;
+  height: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*Profile..........*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-outer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  margin-left: 5%;
+  margin-top: 100px;
+  width: 90%;
+  background-color: rgba(200, 182, 182, 0.5);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.profile-img{
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-img img{
+  width: 100%;
+  height: 100%;
+}
+.profile-categerories{
+  
+  display: flex;
+  width: 100%;
+  
+}
+.profile-textbox{
+  margin-top: 10px;
+  height: 25px;
+  margin-left: 7px;
+  
+}
+.profile-btn{
+  margin-top:10px;
+  height:25px;
 }

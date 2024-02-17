@@ -1,0 +1,117 @@
+.hfot{
+    background-color:rgb(71, 62, 88);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.hfot a{
+    text-decoration:none ;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius:5px;
+
+}
+.hfot a:hover{
+    width: 50px;
+    color: rgb(241, 152, 152);
+}
+.slideimg{
+    width: 100%;
+    height: 500px;
+}
+body{
+    
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+.ourservices h2{
+    text-align: center;
+    margin-top: 60px;
+     
+  
+}
+.line{
+    margin-top: -10px;
+    width: 50px;
+    color:chartreuse;
+}
+
+
+
+
+.about{
+text-align: center;
+margin-top: 40px;
+}
+.compocard{
+width: 100%;
+background-color:white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s;
+margin-top:0;
+
+}
+
+.card-rating {
+color: gold;
+margin-bottom: 8px;
+
+}
+.rating{
+    background-color: rgb(67, 116, 67);
+    color: antiquewhite;
+    border-radius: 2px;
+
+}
+.dental{
+ font-size: 20px;
+ align-items: center;
+ border-radius: 4px;
+ background-color: azure;
+
+}
+
+.tick-icon{
+    color: green;
+}
+li{
+    list-style-type:none;
+}
+.ourservices{
+    
+    border: 2px;
+   gap: 10px;
+    width: 98%;
+}
+.services{
+    display: flex;
+    border: 2px;
+    gap: 10px;
+  
+}
+.services h4{
+    align-items: center;
+}
+
+.service-address{
+    border: 2px;
+    width: 500px;
+    
+   
+}
+.service-address a{
+    margin-bottom: 15px;
+}
+.sergap{
+    margin: 40px 10px 10px 10px;
+    padding: 10px;
+    
+}
+.sergap ul li{
+    margin-bottom: 15px;
+    margin-right: 15px;
+}

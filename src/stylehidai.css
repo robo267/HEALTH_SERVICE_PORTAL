@@ -1,0 +1,205 @@
+.subbdy{
+  width: 50%;
+  height: 600px;
+  padding: 50px;
+  background-color:#c5edf1;
+  border-radius:20px;
+} 
+
+  .h1{
+    color:#3810c7f5;font-size: 3em;
+  }    
+  
+      .inp[type=text], .inp[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .button{
+      box-shadow:0 12px 16px 0 rgba(0,0,0,0.40), 0 17px 50px 0 rgba(0,0,0,0.29);
+      color:rgba(0, 128, 0, 0.861);
+      
+  }
+      .bdy{
+      display:flex;
+      margin:10px 0 0 0;
+      
+    
+    border-radius: 20px;
+    
+      }
+      .bdy.imag{
+        display:grid;
+        place-items: center;
+
+      }
+      
+      .flex-container {
+        display: flex;
+        gap: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px ;
+  
+        
+      }
+  
+      .flex-item {
+        width: 300px;
+        margin: 10px;
+        transition:.2s;
+
+        
+      }
+      .flex-item .card{
+        border-radius: 150px;
+
+      }
+  
+      
+      
+  
+      .flex-item .card img {
+        width: 100%;
+        height: 100%;
+        
+        border-radius: 150px;
+        overflow: hidden;
+        position:relative;
+        gap:40px;
+      }
+      .flex-item .card:hover{
+        transform:scale(1.1);
+        box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color:rgba(127, 255, 212, 0.263) ;
+      }
+      .imag{
+        border:300px;
+        height:300px;
+        
+        margin:0 0 0 -90px;
+  
+      }
+      .imag img{
+        padding:100px 0 100px 0;
+        
+        
+      } 
+      .head{
+        border :600px;
+        width:100%;
+        height:500px;
+        border-radius: 20px;
+        background-image: url('D:\react\tuto_2\pro\public\images\aboutus\demo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       background-size: cover; 
+       
+      }
+      
+       
+        
+      .dupe{
+        
+        display:grid;
+        place-items: center;
+        margin:0 0 0 -40px;
+        
+      } 
+
+
+
+
+    .body{
+    display: grid;
+    place-items: center;
+    background-color:azure;
+   
+    
+}
+
+
+
+.head .subhead{
+    background: rgba(65, 246, 213, 0.295);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+    display: grid;
+    place-items: center;
+}
+
+.head .subhead h1{
+    color: white;
+}
+.para{
+    margin:0 0 0 -30px;
+    width: 700px;
+}
+.fut {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  
+
+}
+
+
+ 
+ .fut  {
+  align-items: right;
+  display:flex;
+  
+  
+}
+.fut p{
+  margin: 15px 0 0 900px;
+
+}
+ .ul{
+  display:flex;
+  gap:20px;
+  margin:15px 0 0 -30px;
+  
+ }
+ .para p{
+  font-size: 1.4em;
+ }
+ .imag img{
+  width:250px;height:150px;border-radius:20px;
+ }
+ .dupe img{
+  width:250px;height:150px;border-radius:20px;
+ }
+ .list{
+  border:30px;
+  display:flex;
+
+  margin-left: 90px;
+
+  gap:500px;
+
+ }
+ .list ul{
+  display:grid;
+ }
+.list ul li{
+  font-family: sans-serif;
+}
+ .button{
+  color:rgba(0, 110, 255, 0.491);background-color: #3498db73; border-radius: 10px;
+ }
+ .fut p{
+  color:azure;
+ }
+ .icon img{
+  border-radius:20px;width:20px;height:20px;
+  margin:0 0 0 0;
+ }
+
+ .container{
+  margin-top: 100px;
+ }
