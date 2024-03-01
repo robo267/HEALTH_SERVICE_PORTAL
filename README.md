@@ -76,9 +76,15 @@
 
 
 ## Technologies used:
-   ### .HTML
-   ### .CSS
-   ### .JS------React JS(Fronted), Express JS(Backend)
+   #### .HTML
+   #### .CSS
+   #### .JS------React JS(Fronted), Express JS(Backend)
 ## Database used:
-   ### .MongoDB
+   #### .MongoDB
+
+## Commands used:
+   #### To run the react application:
+   #### .../HEALTH_SERVICE_PORTAL> npm start
+   #### To run the server:
+   #### .../HEALTH_SERVICE_PORTAL/server> npm run dev
 
