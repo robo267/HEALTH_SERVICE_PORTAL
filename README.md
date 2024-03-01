@@ -10,4 +10,4 @@
 ## Database used:
    ### .MongoDB
 
-![Base](images/Screenshots/Base.png)
+![Base](./public/images/Screenshots/Base.png)
