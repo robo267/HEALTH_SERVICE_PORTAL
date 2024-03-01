@@ -3,6 +3,19 @@
    ### The Health Service Portal will allow users to discover the types of hospitals available in Narasaraopeta, and access information about all hospitals providing facilities and services. 
    ### This project aims to raise awareness among people to identify a particular hospital when in need.
 
+## The project looks like:
+
+<div style="display: flex;">
+    <!-- First image -->
+    <img src="images/Screenshots/Base.png" alt="Image 1" style="width: 100px; height: auto; margin-right: 10px;">
+    <!-- Second image -->
+    <img src="images/Screenshots/Home-1.png" alt="Image 2" style="width: 100px; height: auto; margin-right: 10px;">
+    <!-- Third image -->
+    <img src="images/Screenshots/Home-2.png" alt="Image 3" style="width: 100px; height: auto;">
+</div>
+
+
+
 ## Technologies used:
    ### .HTML
    ### .CSS
@@ -10,4 +23,3 @@
 ## Database used:
    ### .MongoDB
 
-![Base](./public/images/Screenshots/Base.png)
