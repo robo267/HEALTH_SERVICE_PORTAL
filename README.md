@@ -55,7 +55,7 @@
     <img src="/public/images/Screenshots/Login_valid.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
 </div>
 
-## Register page
+## Registration page
 <div style="display: flex;">
     <!-- First image -->
     <img src="./public/images/Screenshots/Register.png" alt="Image 1" style="width: 400px; height: 250px; margin-right: 10px;">
