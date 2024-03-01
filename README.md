@@ -11,7 +11,14 @@
     <!-- Second image -->
     <img src="/public/images/Screenshots/Home-1.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
     <!-- Third image -->
-    <img src="/public/images/Screenshots/Home-2.png" alt="Image 3" style="width: 400px; height: 250px;">
+    <img src="/public/images/Screenshots/Home-2.png" alt="Image 3" style="width: 400px; height: 250px;
+    margin-right: 10px;">
+    <!-- Second image -->
+    <img src="/public/images/Screenshots/Home-3.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
+    <!-- Second image -->
+    <img src="/public/images/Screenshots/Home-4.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
+    <!-- Second image -->
+    <img src="/public/images/Screenshots/Home-5.png" alt="Image 2" style="width: 400px; height: 250px; margin-right: 10px;">
 </div>
 
 
