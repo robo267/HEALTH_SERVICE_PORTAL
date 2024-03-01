@@ -1,2 +1,3 @@
-> npm start 
-> npm run dev 
+path_to_this_entire folder> npm start 
+
+path_to_this_entire folder\server> npm run dev 
